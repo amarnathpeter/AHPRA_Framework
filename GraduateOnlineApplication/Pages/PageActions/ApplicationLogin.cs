@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Demo.Pages.PageActions
+namespace GOA.Pages.PageActions
 {
     class ApplicationLogin
     {

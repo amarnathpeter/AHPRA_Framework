@@ -3,12 +3,12 @@ using AllureCSharpCommons.Events;
 using AventStack.ExtentReports;
 using Core.Extensions;
 using Core.Helpers;
-using Demo.Factory;
-using Demo.Pages.PageObjects;
+using GOA.Factory;
+using GOA.Pages.PageObjects;
 using OpenQA.Selenium;
 using TechTalk.SpecFlow;
 
-namespace Demo
+namespace GOA
 {
     [Binding]
     public class ApplicationLoginSteps:Steps

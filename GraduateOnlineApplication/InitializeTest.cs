@@ -14,12 +14,12 @@ using System.IO;
 using System.Reflection;
 using TechTalk.SpecFlow;
 
-namespace Demo
+namespace GOA
 {
     [Binding]
     public class InitializeTest :ConfigurationSettings
     {
-        private static new readonly AppSettings AppSettings = GetAppSettings();
+        private static readonly AppSettings AppSettings = GetAppSettings();
         static AllureCSharpCommons.Allure _lifecycle = AllureCSharpCommons.Allure.Lifecycle;
         static string SuiteUid = "RegressionPack";
         /// <summary>

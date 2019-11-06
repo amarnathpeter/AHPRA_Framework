@@ -1,7 +1,7 @@
 ﻿
-using Demo.Pages.PageActions;
+using GOA.Pages.PageActions;
 
-namespace Demo.Factory
+namespace GOA.Factory
 {
     /// <summary></summary>
     internal class ObjectFactory

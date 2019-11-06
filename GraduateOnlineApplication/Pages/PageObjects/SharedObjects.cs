@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Demo.Pages.PageObjects
+namespace GOA.Pages.PageObjects
 {
     public class SharedObjects
     {

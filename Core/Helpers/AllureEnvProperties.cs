@@ -45,7 +45,7 @@ namespace Core.Helpers
                 }
                 catch (IOException e)
                 {
-                    //e.printStackTrace();
+                    Console.WriteLine(e);
                 }
             }
         }

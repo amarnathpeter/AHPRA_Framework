@@ -1,12 +1,12 @@
 ﻿using AllureCSharpCommons.Events;
 using AventStack.ExtentReports;
-using Demo.Factory;
+using GOA.Factory;
 using OpenQA.Selenium;
 using System;
 using System.Net;
 using TechTalk.SpecFlow;
 
-namespace Demo.StepDefination
+namespace GOA.StepDefination
 {
     [Binding]
     public class FindAllBrokenLinkSteps:Steps

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TestProfile xmlns="http://www.specflow.org/plus/schemas/1.5/TestProfile">
-  <Settings projectName="Demo" projectId="{4249a7c2-6a76-477f-9003-6b9b51b88ac0}" />
+  <Settings projectName="GOA" projectId="{4249a7c2-6a76-477f-9003-6b9b51b88ac0}" />
   <Execution stopAfterFailures="3" testThreadCount="2" testSchedulingMode="Sequential" />
   <!-- For collecting by a SpecRun server update and enable the following element. For using the 
       collected statistics, set testSchedulingMode="Adaptive" attribute on the <Execution> element.
     <Server serverUrl="http://specrunserver:6365" publishResults="true" />
   -->
   <TestAssemblyPaths>
-    <TestAssemblyPath>Demo.dll</TestAssemblyPath>
+    <TestAssemblyPath>GOA.dll</TestAssemblyPath>
   </TestAssemblyPaths>
   <DeploymentTransformation>
     <Steps>
